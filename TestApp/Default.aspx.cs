@@ -13,5 +13,10 @@ namespace TestApp
         {
             Response.Write("This is test response");
         }
+
+        protected void lnkTestWebPage_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/TestWebForm.aspx");
+        }
     }
 }
